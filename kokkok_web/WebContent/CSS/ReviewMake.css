@@ -1,0 +1,630 @@
+html{
+    background-color: #E2E2E2;
+}
+body{
+   margin:0;
+}
+#head{
+    float: left;
+    width: 100%;
+    background-color: #F3F4F4;
+    box-shadow: 0 1px 3px 0.5px #cccccc;
+}
+
+/* 취소 저장 상단 */
+#cancel_btn, #save_btn, .toggle_cancel_btn, .toggle_save_btn{
+    width: 15%;
+    background-color: #2D4B71;
+    color: white;
+    left: 0;
+    border: 0;
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    font-size: 5vw;
+    padding: 1.5%;
+}
+
+#title, .toggle_title{
+    display: inline-block;
+    width: 67%;
+    text-align: center;
+    background-color: #F3F4F4;
+    margin: 0;
+    font-size: 5vw;
+    padding: 1.5%;
+    float: left;
+    font-weight: bold;
+    color: #666666;
+    border-bottom: 1px solid #f3f4f4
+}
+
+/* 내용 */
+#container {
+    width: 94%;
+    float: left;
+    padding: 4% 3% 2% 3%;
+}
+
+#content {
+    float: left;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 3px 0.5px #cccccc;
+    padding-bottom: 5%;
+}
+.review_sub_img{
+   margin:5%;
+   width:90%;
+   background-repeat:no-repeat;
+   background-size: 100%;
+   background-position: center center;
+}
+.default , .default_img , .re_title{
+   float:left;
+   width:100%;
+}
+.review_img{
+   margin:5%;
+   width:90%;
+   background-repeat:no-repeat;
+   background-size: 100%;
+   background-position: center center;
+}
+.default_img{
+   background-repeat:no-repeat;
+   background-size: 100%;
+   background-position: center center;
+}
+
+.default_image{
+   width:100%;
+}
+/* 여행기 제목 작성 - input Text */
+#review_title {
+   margin: 2%;
+    font-size: 5.5vw;
+    border: 0;
+    padding: 2% 1%;
+    color: #365AA1;
+    font-weight: bold;
+    width: 94%;
+}
+
+/* 태그 작성 */
+
+#add_tag{
+    background-color: #888888;
+    color: #ffffff;
+}
+
+.toggle_tag_list {
+   float: left;
+    width: 96%;
+    padding: 2%;
+    background-color: #f9f9f9;
+    border: solid #f1f1f1;
+    border-width: 1px 0 1px 0;
+}
+
+.tag_list{
+   float: left;
+    font-size: 3.5vw;
+    font-weight: bold;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    padding: 1% 2% 1% 2%;
+    background-color: #ffffff;
+    color: #666666;
+    margin: 1%;
+}
+
+.toggle_input_tag{
+    float: left;
+    width: 96%;
+    padding: 1% 2%;
+    text-align: center;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.tag_content{
+    width: 79%;
+    float: left;
+    padding: 1%;
+    font-size: 4vw;
+    margin: 1%;
+    margin-left: 2%;
+    color: #555555;
+    border: 1px solid #e0e0e0;
+}
+.tag_btn{
+    font-size: 4vw;
+    padding: 1% 2%;
+    float: left;
+    margin: 1%;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #395fa0;
+    color: #ffffff;
+}
+
+/* 캘린더 */
+
+.date {
+    float: left;
+    width: 96%;
+    text-align: right;
+    margin: 3% 2% 2% 2%;
+    font-size: 4vw;
+   color: #6d6d6d;
+    font-weight: bold;
+}
+
+.date_icon{
+   width:6%;
+}
+
+#date-range-text {
+    border-bottom: 1px solid #cccccc;
+    padding: 1% 2%;
+}
+
+/* 작성 내용 */
+.total_review_wrap {
+   float: left;
+    width: 100%;
+    background-color: white;
+}
+
+.date_bar {
+    float: left;
+    width: 100%;
+    margin: 2% 0;
+}
+
+.review_date {
+   float: left;
+    width: 15%;
+    background-color: #4f7aa2;
+    font-size: 4vw;
+    color: white;
+    font-weight: bold;
+    padding: 1% 2%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+
+.site_bar{
+    width: 100%;
+    float: left;
+}
+
+.canvas {
+    width: 23%;
+    float: left;
+    padding: 1% 0;
+}
+
+.area_add_btn {
+    width: 73%;
+    float:left;
+    margin: 1% 2%;
+    padding: 1%;
+    font-size: 4vw;
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    color: #666666;
+    font-weight: bold;
+    box-shadow: 1px 1px 0.5px #f2f2f2;
+}
+
+
+/* 명소 추가 후 */
+
+.site_name{
+   float: left;
+    width: 73%;
+    padding: 1% 2%;
+    font-size: 4.5vw;
+    font-weight: bold;
+    color: #666666;
+}
+
+.site_line{
+    width: 23%;
+    float: left;
+    padding: 1% 0;
+}
+
+
+.box_site {
+    float: right;
+    width: 72%;
+    margin: 0 2%;
+    background-color: #ffffff;
+    border: 1px solid #f0f0f0;
+}
+
+
+.site_img {
+    margin: 2%;
+    width: 45%;
+    float: left;
+}
+
+.site_img img {
+   float: left;
+   width: 100%;
+    background-repeat:no-repeat;
+   background-size: 100%;
+   background-position: center center;
+}
+
+.site_content {
+    padding-top: 2%;
+    float: left;
+    width: 50%;
+}
+
+.site_title {
+    float: left;
+    color: #4d4d4d;
+    font-size: 3.2vw;
+    font-weight: bold;
+    width: 96%;
+    padding: 2%;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.arrow{
+    float: right;
+    text-align: right;
+    width: 5%;
+    padding-top: 2%;
+}
+
+.location_img {
+   width:13%;
+   float: left;
+}
+
+.site_info {
+   width: 83%;
+    float: left;
+    padding-left: 2%;
+    font-size: 3vw;
+}
+
+.site_like {
+    margin-top: 5%;
+    float: right;
+    width: 60%;
+}
+
+.like {
+    width: 50%;
+    float: right;
+}
+
+.like_cont {
+   font-size: 3.3vw;
+}
+
+
+.write_btn {
+    width: 96%;
+    margin: 2% 2% 3% 2%;
+    border: 1px solid #dddddd;
+    font-size: 4vw;
+    background-color: #e9eef5;
+    font-weight: bold;
+    color: #555555;
+    padding: 1% 0;
+    box-shadow: 1px 1px 0.5px #f2f2f2;
+}
+
+
+
+
+/*  */
+.site_wrap {
+   float: left;
+   width: 96%;
+   margin-left: 2%;
+   margin-top: 2%;
+   background-color: white;
+}
+
+.cir {
+   float: left;
+   width: 15%;
+   height: 100%;
+}
+
+.site_cont {
+   width: 80%;
+   float: left;
+   margin-top: 2%;
+   background-color: white;
+}
+/*
+.site_title {
+   float: left;
+   width: 100%;
+   font-size: 4.5vw;
+   font-weight: 800;
+   padding: 1% 1% 1% 1%;
+}
+*/
+.info_wrap {
+   width: 100%;
+   float: left;
+   border: 1px solid #cccccc;
+   background-color: #EAEAEA;
+   margin-top: 2%;
+}
+
+.site_pic {
+   float: left;
+   width: 40%;
+   margin: 2% 2% 2% 2%;
+}
+
+.info_wrap2 {
+   width: 55%;
+   float: left;
+   margin-top: 2%;
+}
+
+.location {
+   float: left;
+   width: 20%;
+}
+
+.info_detail {
+   float: left;
+   width: 75%;
+   margin: 2% 2% 2% 2%;
+   font-size: 3vw;
+}
+
+/*  */
+.toggle_footer {
+   width: 100%;
+   /*height:100px;*/
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   /*background-color:black;*/
+}
+
+
+.btn_list {
+    background-color: #2D4B71;
+    float: left;
+    width: 90%;
+    padding: 2% 5%;
+}
+
+.add {
+   float: left;
+   width: 10%;
+   /* height: 52px; */
+   background-color: black;
+   color: white;
+   /* padding-top: 4%;
+   padding-left: 4%; */
+}
+
+
+.btn {
+    width: 33.3333%;
+    color: white;
+    float: left;
+    border: none;
+    text-align: center;
+    font-size: 4.2vw;
+    font-weight: bold;
+}
+
+.btn img
+{
+   width:20%;
+}
+
+
+.toggle {
+   width: 100%;
+   position: relative;
+   z-index:1;
+   /* overflow:hidden; */
+}
+
+.toggle_container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden!important;
+    background-color: #F3F4F4;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.toggle_content {
+    width: 100%;
+   height: 88%;
+    background-color: #E2E2E2;
+    padding-top: 12%;
+    padding-left: 3%;
+}
+.toggle_content_back{
+   width:94%;
+   height:90%;
+   background-color:white;
+   padding-top:5%;
+   overflow:scroll!important;
+}
+.default_btn{
+    width: 90%;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    padding: 1%;
+    font-size: 4vw;
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+}
+.write_title_back{
+   width:90%;
+   background-color:rgb(230, 230, 230);
+   padding-top:2%;
+   padding-left:2%;
+   padding-bottom:2%;
+   margin-bottom:5%;
+   margin-left:5%;
+}
+.wrtie_title{
+   width:96%;
+}
+.write_title_toggle{
+   width: 90%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    font-size: 6vw;
+    font-weight: bold;
+    color: #4166A5;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.write_content_back{
+   width:90%;
+   background-color:rgb(230, 230, 230);
+   padding-top:2%;
+   padding-left:2%;
+   padding-bottom:2%;
+   margin-bottom:5%;
+   margin-left:5%;
+   display:block;
+}
+.write_content{
+   width:96%;
+   height:auto;
+}
+.write_content_toggle{
+   width: 90%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    font-size: 4vw;
+    color: #424242;
+    word-break: break-all;
+    word-wrap: break-word;
+    
+}
+/* .review_img{
+   width:90%;
+   margin-bottom:5%;
+   margin-left:5%;
+   image-size:cover;
+} */
+
+
+#dynamic{
+   width: 100%;
+   height:100%;
+   background-color:white;
+   position: fixed;
+   left: 0;
+   top: 0;
+    border: 0;
+}
+/* 吏��뿭 �꽑�깮 �뿉�꽌 媛뽮퀬�삩嫄�  */
+
+/* .box_site_toggle{
+   opacity:0.5;
+} */
+
+.tour_review_container{
+   width: 96%;
+   float:left;
+   border:1px solid #cccccc;
+   margin-left: 2%;
+   margin-top: 2%;
+   background-color:white;
+}
+.tour_review_folder{
+   width:100%;
+   display:inline-block;
+}
+.tour_review_folder_onoff{
+   width:98%;
+   display:block;
+   color:white;
+   text-align:center;
+   font-size:3vw;
+   font-weight:800;
+   background-color:#2D4B71;
+   padding:0.5% 1%;
+}
+.tour_review_btn_list{
+   width:100%;
+   /* margin-bottom:2%; */
+   display:inline-block;
+   margin-top:2%;
+}
+.tour_review_modify{
+   float:right;
+   color:white;
+   font-size:3vw;
+   font-weight:800;
+   border:1px solid #dddddd;
+   background-color:#fafafa;
+   color:#666666;
+   margin-left:1%;
+   padding:0.5% 1%;
+   border-radius:5px;
+   margin-right:1%;
+}
+.tour_review_delete{
+   float:right;
+   color:white;
+   font-size:3vw;
+   font-weight:800;
+   border:1px solid #dddddd;
+   background-color:#fafafa;
+   color:#666666;
+   padding:0.5% 1%;
+   border-radius:5px;
+}
+
+.reivew_sub_img{
+   width:100%;
+}
+.review_sub_content{
+   width: 96%;
+    margin: 3% 2%;
+    font-size: 4vw;
+    color: #424242;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.review_sub_title{
+    width: 96%;
+    margin: 3% 2%;
+    font-size: 6vw;
+    font-weight: bold;
+    color: #4166A5;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.review_sub_content1{
+   width:95%;
+   padding-left:5%;
+   font-size:3.5vw;
+   
+}

@@ -1,0 +1,411 @@
+html
+{
+    background-color:#EAEAEA;
+}
+body{
+	margin:0;
+}
+a
+{
+    text-decoration:none;
+}
+
+.content 
+{
+    width: 94%;
+    margin: 4% 3% 0 3%;
+    float: left;
+    background-color: white;
+    box-shadow: 0 1px 3px 0.5px #cccccc;
+    
+}
+.surf_img
+{
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-position: center center;
+    width:100%;
+}
+.surf_img img
+{
+    width:100%;
+}
+
+.user_wrap
+{
+    float: left;
+    width: 96%;
+    margin: 3% 2% 2% 2%;
+}
+
+.name
+{
+    float: left;
+    margin-left: 2%;
+    width: 60%;
+    font-weight: bold;
+}
+.icon_img1{
+	float: left;
+    width: 18%;
+    border-radius: 50%;
+}
+.icon_text1{
+	float: left;
+    margin: 4% 3%;
+    font-size: 4vw;
+    color: #424242;
+}
+.state_icon{
+	float: right;
+    width: 35%;
+    margin-top: 2%;
+}
+
+.icon_img2{
+	float: right;
+    margin-top: 2%;
+    width: 15%;
+}
+.icon_text2{
+    float: right;
+    margin: 1% 6%;
+    font-size: 4vw;
+    color: #555555;
+}
+
+.review_wrap
+{
+	float: left;
+    width: 96%;
+    margin: 2%;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 2%;
+}
+.my_title
+{
+    width: 96%;
+    font-size: 5.5vw;
+    color: #365AA1;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.plus
+{
+    width: 30%;
+    float: right;
+    margin-right: 2%;
+    padding: 1%;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    background-color: #f6f6f6;
+    font-size: 3.7vw;
+    border-radius: 5px;
+    text-align: center;
+    color: #424242;
+}
+.plus_sub
+{
+    margin: 0 6%;
+    float: left;
+}
+
+.like_icon{
+	float: left;
+    width: 18%;
+    padding: 1% 2%;
+}
+.calender
+{
+    width: 96%;
+    float: right;
+    margin: 3% 2%;
+    text-align: right;
+    font-size: 3.8vw;
+    color: #999999;
+    font-weight: bold;
+}
+.date_text{
+	float: right;
+}
+.date_icon{
+    width: 5%;
+    float: right;
+ 	padding: 0.5% 1%;
+
+}
+
+.total_review_wrap
+{
+    float:left;
+    width:94%;
+    margin: 0 3%;
+    background-color:#ffffff;
+    box-shadow: 0 1px 3px 0.5px #cccccc;
+}
+.date_bar {
+    float: left;
+    width: 100%;
+    margin: 2% 0;
+}
+
+.review_date {
+	float: left;
+    width: 15%;
+    background-color: #4f7aa2;
+    font-size: 4vw;
+    color: white;
+    font-weight: bold;
+    padding: 1% 2%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 4%;
+    border-radius: 5px;
+}
+
+.day_review{
+	width:96%;
+	float: left;
+	display:inline-block;
+}
+
+
+.site_wrap
+{
+    float:left;
+    width:96%;
+    margin-left:2%;
+    margin-top:2%;
+    background-color:white;
+}
+
+.canvas {
+    width: 23%;
+    float: left;
+    padding: 1% 0;
+}
+
+.box_site {
+    float: right;
+    width: 72%;
+    margin: 0 2%;
+    background-color: #ffffff;
+    border: 1px solid #f0f0f0;
+}
+
+.site_title {
+    float: left;
+    color: #4d4d4d;
+    font-size: 3.2vw;
+    font-weight: bold;
+    width: 96%;
+    padding: 2%;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.arrow{
+    float: right;
+    text-align: right;
+    width: 5%;
+    padding-top: 2%;
+}
+
+
+.site_img {
+    margin: 2%;
+    width: 45%;
+    float: left;
+    background-repeat:no-repeat;
+	background-size: 100%;
+	background-position: center center;
+}
+
+.site_img img {
+	float: left;
+	width: 100%;
+}
+
+.site_content {
+    padding-top: 2%;
+    float: left;
+    width: 50%;
+}
+
+
+.location_img {
+    width: 13%;
+    float: left;
+    padding: 1%;
+}
+
+.site_info {
+	width: 83%;
+    float: left;
+    padding-left: 2%;
+    font-size: 3vw;
+}
+
+
+.site_like {
+    margin-top: 5%;
+    float: right;
+    width: 60%;
+}
+
+.like {
+    width: 50%;
+    float: right;
+}
+
+.like_cont {
+	font-size: 3.3vw;
+}
+
+.site_line{
+    width: 23%;
+    float: left;
+    padding: 1% 0;
+}
+
+
+.show_review
+{
+    width: 92%;
+    float: left;
+    margin: 2% 4% 4% 4%;
+    border: 1px solid #e0e0e0;
+    background-color: #fbfbfb;
+    box-shadow: 0 2px 2px 1px #f6f6f6;
+}
+.show_pic
+{
+    width:96%;
+    margin-left:2%;
+    margin-top:3%;
+    background-repeat:no-repeat;
+	background-size: 100%;
+	background-position: center center;
+}
+.show_title
+{
+    width: 96%;
+    margin: 3% 2%;
+    font-size: 6vw;
+    font-weight: bold;
+    color: #4166A5;
+}
+.show_cont
+{
+	width: 96%;
+    margin: 3% 2%;
+    font-size: 4vw;
+    color: #424242;
+}
+.user_reply_wrap
+{
+    float:left;
+    width:94%;
+    margin-left:3%;
+  	margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: white;
+    box-shadow: 0 1px 5px 0.5px #cccccc;
+}
+.user_title
+{
+    float: left;
+    width: 96%;
+    margin: 0 2%;
+    border-bottom: 1px solid #cccccc;
+    box-sizing: border-box;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.comment
+{
+    font-size:4vw;
+    font-weight:700;
+    padding-left:2%;
+    padding-bottom:2%;
+    float:left;
+}
+.more
+{
+    float: right;
+    font-size: 3vw;
+    font-weight: bold;
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
+.user_commnet
+{
+    width: 98%;
+	float: left;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    border-bottom: 1px solid #e2e2e2;
+}
+.user_pic
+{
+	width: 8%;
+	float: left;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+.user_pic img {
+	border-radius: 50%;
+}
+.user_con_wrap
+{
+	float: left;
+	width: 80%;
+	margin: 3%;
+}
+.user_name
+{
+	padding-left: 2%;
+	font-size: 4.5vw;
+	font-weight: bold;
+}
+.date
+{
+	font-size: 3vw;
+	float: right;
+	text-align: right;
+	width: 40%;
+	color: #808080;
+	padding-top: 2%;
+
+}
+.user_reply_comment
+{
+    font-size: 4vw;
+    color: #808080;
+    padding: 1% 2% 1% 2%;
+}
+
+.comment_foot{
+    float: left;
+    width: 100%;
+    padding: 1% 2% 1% 2%;
+}
+.foot_text{
+    float: right;
+    text-align: right;
+    width: 20%;
+    font-size: 3vw;
+    color: #8c8c8c;
+}
+
+#dynamic {
+	width: 100%;
+	height:100%;
+	background-color:white;
+	position: fixed;
+	z-index: 500;
+	left: 0;
+	bottom: 0;
+}

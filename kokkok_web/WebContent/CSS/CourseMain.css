@@ -1,0 +1,855 @@
+html {
+    margin: 0 auto;
+    background-color: #EAEAEA;
+}
+body {
+    margin: 0;
+    
+}
+a 
+{
+   text-decoration: none;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #E2E2E2;
+	z-index: 20;
+}
+
+#all_container {
+	position: absolute;
+}
+
+#tabs
+{
+   width: 100%;
+   display: inline-block;
+   
+}
+
+#R_course
+{
+   display: block;
+   float: left;
+   width: 33.333%;
+   background-color:#2D4B71;
+   padding: 3% 0;
+   text-align: center;
+   color:white;
+   font-size:4vw;
+   font-weight:bold;
+}
+#U_recommend
+{
+   display: block;
+   float: left;
+   width: 33.333%;
+   background-color: #f0f0f0;
+   padding: 3% 0;
+   text-align: center;
+   color:#555555;
+   font-size:4vw;
+   font-weight:bold;
+}
+#coursemake
+{
+   display: block;
+   float: left;
+   width: 33.333%;
+   background-color:#f0f0f0;
+   padding: 3% 0;
+   text-align: center;
+   color:#555555;
+   font-size:4vw;
+   font-weight:bold;
+}
+
+.swiper-container {
+   width: 100%;
+   box-shadow: 0 1px 5px 0.5px #cccccc;
+}
+
+.swiper-wrapper {
+   width: 100%;
+   height: auto;
+    padding-bottom: 10%;
+    background-color: #eaeaea;    
+}
+
+.swiper-slide {
+   width: 100%;
+    height: auto;
+    background-color: #eaeaea;
+}
+
+.area_list {
+   vertical-align: middle;
+   float: left;
+}
+
+.container {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    margin: 3% 0 3% 0;
+    padding: 3% 0;
+   box-shadow: 0 1px 5px 0.5px #cccccc;
+}
+
+.box {
+    width: 96%;
+    float: left;
+    position: relative;
+    padding-bottom: 3%;
+    margin: 2% 2%;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.area_content {
+   position: relative;
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.box_area {
+    position: absolute;
+    width: 100%;
+    float: left;
+    top: 0;
+}
+.course_site {
+    float: left;
+    width: 32%;
+    text-align: center;
+    background-color: rgba(30,30,30,0.45);
+    color: #ffffff;
+    font-size: 4vw;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.location_text{
+    float: left;
+    padding: 1% 4% 1% 5%;
+}
+
+.spot_name {
+    float: left;
+    width: 100%;
+    padding: 8% 0 8% 0;
+    color: #ffffff;
+    font-size: 6.5vw;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 3px #555555;
+}
+.isBasic_text1{
+    float: right;
+    text-align: center;
+   background-color: rgba(100,150,220,0.75);
+    color: #ffffff;
+    font-size: 4vw;
+    font-weight: bold;
+    padding: 1% 3%;   
+}
+.isBasic_text2{
+    float: right;
+    text-align: center;
+    background-color: rgba(200,80,120,0.85);
+    color: #ffffff;
+    font-size: 4vw;
+    font-weight: bold;
+    padding: 1% 3%;   
+}
+.area_item {
+   width: 100%;
+    float: left;
+    padding: 1%;
+    text-align: right;
+}
+
+.area_item_list {
+   color: #424242;
+    text-align: right;
+    margin: 0 2%;
+    font-size: 3.8vw;
+}
+
+.icon_img{
+    width: 5%;
+}
+
+
+
+.gnb {
+   width: 100%;
+   overflow: hidden;
+   display: inline-block;
+}
+
+.section {
+   width: 100%;
+   overflow-x: scroll;
+   white-space: nowrap;
+   background-color: #e3e3e3;
+}
+
+.area_name {
+    font-size: 4vw;
+    font-weight: bold;
+    color: #666666;
+    margin-left: 5%;
+    padding: 2% 0;
+    display: inline-block;
+}
+#selectBox
+{
+    width: 40%;
+    float: right;
+    margin: 2% 0 4% 0;
+    padding: 1% 1%;
+    font-size:4vw;
+    font-weight:bold;
+}
+
+.box_site1{
+    width: 100%;
+    float: left;
+    padding: 1% 2%;
+    border-bottom: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+#wrap {
+   width: 100%;
+   height: 100%;
+   border: 1px solid #cccccc;
+}
+
+.title {
+   text-align: left;
+   float: left;
+   width: 100%;
+   background-color: #deebe1;
+   margin-top: 1%;
+   color: #4a4a4a;
+   font-size: 5vw;
+   font-weight: bold;
+   vertical-align: middle;
+   padding-left: 4%;
+   padding: 1%;
+}
+
+.downSize80 {
+   width: 100%;
+   padding: 8px;
+   position: relative;
+   align: middle;
+}
+
+.toggle {
+   display: none;
+}
+
+.content_site {
+   width: 100%;
+   height: auto;
+}
+
+.content_element {
+   width: 100%;
+   height: auto;
+   border: 1px solid #cccccc;
+   box-sizing: border-box;
+   float: left;
+}
+
+.content_site {
+   width: 100%;
+   height: auto;
+}
+
+.select_kind {
+   width: 100%;
+   padding-left: 5%;
+   font-size: 10%;
+   background-color: #ffd800;
+   margin-top: 3%;
+}
+
+.select_box {
+   width: 100%;
+   height: auto;
+}
+
+
+
+/* .tour_list {
+   width: 120%;
+   height: 100%;
+   overflow-x: hidden;
+   overflow-y: scroll;
+} */
+
+.tour_list img {
+   width: 100%;
+   height: 25%;
+}
+
+.cover {
+   width: 35%;
+   height: 100%;
+   border: 1px solid #cccccc;
+   box-sizing: border-box;
+   overflow: hidden;
+   float: left;
+   margin-left: 5%;
+}
+
+.area_container {
+   width: 100%;
+   height: auto;
+   float: left;
+}
+
+.map_wrap {
+   float: left;
+   width: 55%;
+   height: auto;
+   border-bottom: 1px dashed #cccccc;
+   margin: 0 auto;
+   display: inline-block;
+}
+
+#map {
+   width: 100%;
+   height: 373px;
+   border: 1px solid #cccccc;
+   float: left;
+}
+
+.map_view {
+   height: 400px;
+   float: left;
+   width: 100%;
+   margin-top: 30px;
+   display: block;
+}
+
+.map_big {
+   width: 100%;
+   height: 5%;
+}
+
+.contents_view {
+   width: 100%;
+   height: auto;
+   float: left;
+}
+
+.contents_box {
+   float: left;
+   margin-top: 10px;
+   width: 100%;
+   height: auto;
+}
+
+.sub_box {
+   display: inline-block;
+   width: 30%;
+   margin-left: 10%;
+   margin-top: 5px;
+   height: 30px;
+}
+
+.sub_button {
+   float: right;
+   margin-right: 10%;
+   margin-top: px;
+   width: 30%;
+   height: 30px;
+}
+
+.sub_box:first-child {
+   margin-left: 10%;
+}
+
+.show_content {
+   margin-top: 20px;
+   width: 90%;
+   margin-left: 5%;
+   height: auto;
+   border: 1px dashed #cccccc;
+   max-height: 300px;
+}
+
+.comment {
+   float: right;
+}
+
+#reply_comment {
+   width: 90%;
+   height: 60px;
+   margin: 0 auto;
+   margin-left: 5%;
+   border-right: 1px solid #cccccc;
+   border-left: 1px solid #cccccc;
+   border-bottom: 1px solid #cccccc;
+   border-radius: 10px;
+   float: left;
+   display: none;
+}
+
+
+
+.area {
+   width: 100%;
+   float: left;
+}
+/* 嶺뚮씭�뒧獄��뼅臾얍뜝占� */
+.white_wrap {
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px 0.5px #cccccc;
+    float: left;
+    width: 100%;
+    margin: 0 0 4% 0;
+    padding-bottom: 4%;
+   
+}
+.write_title {
+    float: left;
+    width: 96%;
+    color: #424242;
+    font-size: 5vw;
+    font-weight: bold;
+    margin: 3% 0;
+    border-bottom: 1px solid #dddddd;
+    background-color: #f6f6f6;
+    padding: 3% 2%;
+}
+.title_count {
+    font-size: 4vw;
+}
+.title_link {
+    float: right;
+    font-size: 3.5vw;
+    padding: 1%;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    color: BLACK;
+    background-color: #f9f9f9;
+    display: block;
+}
+.title_link a {
+     color: BLACK;
+}
+.course_container
+{
+    width: 100%;
+}
+.course_box
+{
+    width: 92%;
+    border: 1px solid #eaeaea;
+    margin: 2% 4% 2% 4%;
+    float: left;
+    display: none;
+}
+.course_title {
+    width: 100%;
+    float: left;
+    background-color: #F6F6F6;
+}
+.course_name {
+    width: 80%;
+    float: left;
+    font-size: 4.5vw;
+    color: #314881;
+    font-weight: bold;
+    padding: 2%;
+}
+.course_btn {
+    padding: 2%;
+    margin: 1%;
+    float: right;
+    background-color: #314881;
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    text-align: center;
+    border-radius: 5px;
+    
+    background-size:cover;
+}
+.img_check2{
+   width:20%;
+    position: absolute;
+    right: 6%;
+    display: none;
+}
+
+.course_path {
+    width: 96%;
+    float: left;
+    font-size: 3.5vw;
+    padding: 2%;
+}
+.course_content {
+    float: left;
+    width: 85%;
+}
+.split_line {
+   /* display:inline-block; */
+    float: left;
+    width: 94%;
+    height: 1px;
+    margin: 3%;
+    background-color: #150d5b;
+}
+
+.best_container {
+    margin: 2% 4% 2% 4%;
+    width: 92%;
+    float: left;
+}
+.best_box {
+   background-color:black;
+    width: 96%;
+    float: left;
+}
+.bestCourse {
+    float: left;
+    text-align: left; 
+    font-size: 3.5vw;
+    border: 1px solid #eaeaea;
+}
+.show_course {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+.img_check {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    z-index: 2;
+    width: 20%;
+    display: none;
+}
+.scrap_image{
+   width: 100%;
+   background-repeat:no-repeat;
+   background-size: 100%;
+   background-position: center center;
+}
+.content_box {
+    background-color: #fafafa;
+    width: 100%;
+    float: left;
+}
+.content_title {
+    width: 100%;
+    padding: 2%;
+    float: left;
+    font-size: 4.5vw;
+    font-weight: bold;
+    color: #0b2e6e;
+}
+.content_addr{
+    float: left;
+    width: 96%;
+    color: #999999;
+    font-size: 3.5vw;
+    margin:2%;
+}
+.icon_box {
+    float: left;
+    width: 98%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.like_icon {
+    float: left;
+    width: 10%;
+    padding: 1%;
+}
+.like {
+    float: left;
+    font-size: 3.5vw;
+    padding: 0 1% 1% 1%;
+    color: #666666;
+}
+.map {
+    float: right;
+    font-size: 3.5vw;
+    padding: 1%;
+    color: #666666;
+    text-align: right;
+}
+.map_icon {
+    float: right;
+    width: 13%;
+}
+
+
+.mkcourse_wrap {
+    float: left;
+    position: fixed;
+    bottom: 7%;
+    margin: 0;
+    width: 100%;
+    z-index: 50;
+    display: none;
+}
+.mkcourse
+{
+    float: left;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4.5vw;
+    border-radius: 5px;
+    z-index:10;
+    padding: 2% 0 2% 0;
+    background-color: #314881;
+}
+
+
+#state_view1 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 40;
+    background-color: white;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.view_title {
+    background-color: #566da1;
+    vertical-align: middle;
+    color: white;
+    font-size: 5vw;
+    padding: 2%;
+    text-align: center;
+    font-weight: bold;
+}
+.suc_box{
+    width: 94%;
+    margin: 3% 3% 0 3%;
+    float: left;
+}
+.tab_box {
+    width: 94%;
+    margin: 3%;
+    float: left;
+}
+.view_header {
+    display:inline-block;
+    width: 100%;
+    margin-top: 3%;
+}
+.input_name{
+   width: 75%;
+    float: left;
+    padding: 1% 2%;
+    font-size: 4vw;
+    color: #999999;
+}
+
+#write_suc{
+   width: 19%;
+    float: left;
+    padding: 1.5% 2%;
+    font-size: 4vw;
+    background-color: #2D4B71;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 0 0 2%;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.state_title {
+    float: left;
+    width: 30%;
+    font-size: 4.2vw;
+    font-weight: bold;
+    padding: 1%;
+    vertical-align: middle;
+    background-color: #f6f6f6;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    text-align: center;
+    color: #424242;
+}
+.date {
+    font-size: 4.2vw;
+    color: #777777;
+    float: right;
+    width: 65%;
+    padding: 1.5%;
+    font-weight: bold;
+    vertical-align: middle;
+}
+#item{
+   width: 100%;
+    margin-top: 3%;
+    /* overflow:scroll; */
+    background-color:white;
+}
+.name
+{
+    width: 100%;
+    background-color: #6c7b9b;
+    font-size: 4.5vw;
+    padding: 1%;
+    margin: 4% 0 2% 0;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.day_wrap
+{
+    /* float:left; */
+}
+.fold_icon {
+    float: right;
+    width: 20%;
+    color: #ffffff;
+    text-align: right;
+    padding: 0 2% 0 2%;
+}
+.course_day {
+    width: 100%;
+    /* padding: 2%; */
+}
+.site_box {
+    
+    width: 96%;
+    background-color: #f6f6f6;
+    border: 1px solid #eaeaea;
+    padding: 2%;
+}
+.info {
+    font-size: 3.2vw;
+    float: right;
+    width: 100%;
+    margin: 1% 0 3% 0;
+    text-align: right;
+    font-weight: bold;
+    color: #424242;
+}
+.site {
+    width: 100%;
+    font-weight: bold;
+    font-size: 4.2vw;
+    color: #777777;
+    padding: 1%;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.order {
+    width: 5%;
+    float: left;
+    margin-right: 3%;
+}
+.day_num {
+    width: 100%;
+    padding: 7% 5% 0 0; 
+    font-weight: bold;
+    margin-left: 5%;
+    font-size: 7vw;
+    float: left;
+    color: #999999;
+}
+.course_route {
+    display:none;
+    width: 5%;
+    float: left;
+    padding-top: 8%;
+    padding-left: 2%;
+}
+.circle {}
+.day_site_wrap_total {
+   float: left;
+    width: 92%;
+}
+.day_site_wrap {
+    float: left;
+    width: 100%;
+}
+.day_site {
+    width: 98%;
+    float: left;
+    margin-left: 2%;
+}
+.s_name {
+    width: 67%;
+    font-weight: 600;
+    font-size: 5vw;
+    float: left;
+    padding: 3% 0 2% 0;
+    color: #424242;
+}
+.icons {
+    float: right;
+    text-align: right;
+    width: 33%;
+    padding: 3% 0 2% 0;
+}
+.line {
+    float: left;
+    width: 100%;
+}
+.line img {
+    float: left;
+    width: 11%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.line2 {
+    float: left;
+    margin-top: 2%;
+    font-size: 3.5vw;
+    color: #888888;
+    padding: 1%;
+}
+.margin_box {
+    float: left;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.tot_wrap{
+   width: 100%;
+    display: inline-block;
+}
+
+#nav1 {
+   position: absolute;
+   width: 100%;
+   background-color: #E2E2E2;
+   font-size: 27pt;
+   background: white;
+   text-align: center;
+}
+
+#nav2 {
+   position: absolute;
+   width: 100%;
+   background-color: #E2E2E2;
+   font-size: 27pt;
+   background: white;
+   text-align: center;
+}

@@ -1,0 +1,455 @@
+body {
+	background-color: #EAEAEA;
+}
+
+.nav {
+	width: 100%;
+}
+
+.menu1 {
+	width: 50%;
+    height: 5%;
+    float: left;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #cccccc;
+    background-color: #2D4B71;
+    color: white;
+    font-weight: bold;
+	
+}
+
+.menu2 {
+    width: 50%;
+    height: 5%;
+    float: right;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #cccccc;
+    background-color: #f0f0f0;
+    color: #999999;
+    font-weight: bold;
+}
+
+#wrap {
+	width: 100%;
+	float: left;
+}
+
+#header {
+	width: 100%;
+    float: left;
+    background-color: #f5f5f5;
+    border-bottom:1px solid #cfcfcf;
+    box-shadow: 0 1px 5px 0.5px #cccccc;
+    
+}
+
+.contC {
+	color: #424242;
+	font-size: 5vw;
+	float: left;
+	display: block;
+	width: 63%;
+	padding: 0.3% 0;
+}
+
+/*---------여기서부터 체크박스 디자인-----------*/
+.ckbox {
+	position: relative;
+	width: 96%;
+	vertical-align: middle;
+	float: left;
+	margin: 2% 2% 0 2%;
+	padding: 2% 0;
+}
+
+.ckbox input[type="checkbox"] {
+	/* 실제 체크박스는 화면에서 숨김 */
+	position: absolute;
+	width: 1px;
+	height: 1px;
+    padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0
+}
+
+.ckbox input[type="checkbox"]+label {
+	display: inline-block;
+	position: relative;
+    padding-left: 5%;
+	/* 글자와 체크박스 사이의 간격을 변경 */
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.ckbox input[type="checkbox"]+label:before {
+	/* 가짜 체크박스 */
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0px;
+	/* 이 값을 변경해서 글자와의 정렬 */
+	width: 10%;
+	/* 체크박스의 너비를 지정 */
+	height: 85%;
+	/* 체크박스의 높이를 지정 */
+	line-height: 35%;
+	/* 세로정렬을 위해 높이값과 일치 */
+	text-align: center;
+	background: #fafafa;
+	border: 1px solid #cacece;
+	border-radius: 3px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px
+		rgba(0, 0, 0, 0.05);
+}
+
+.ckbox input[type="checkbox"]+label:active:before, .ckbox input[type="checkbox"]:checked+label:active:before
+	{
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px
+		rgba(0, 0, 0, 0.1);
+}
+
+.ckbox input[type="checkbox"]:checked+label:before {
+	/* 체크박스를 체크했을때 */
+	content: '\2714';
+	/* 체크표시 유니코드 사용 */
+	color: #99a1a7;
+	text-shadow: 1px 1px #fff;
+	background: #e9ecee;
+	border-color: #adb8c0;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px
+		rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+
+}
+
+/*----------체크박스 디자인 END-------------*/
+.selectBox {
+    float: left;
+    font-size: 4.7vw;
+    width: 88%;
+    margin: 1% 3% 1% 9%;
+    padding: 1%;
+    color: #999999;
+    background-color: #dfdfdf;
+}
+
+
+#checkTI {
+	float: left;
+}
+
+.area_selectBtn {
+	float: right;
+	width: 36%;
+	font-size: 4.7vw;
+	margin-right:1%;
+}
+
+.area_selectBtn input{
+	background-color: #dfdfdf;
+	width: 100%;
+	border: 1px solid #c0c0c0;
+	padding : 1% 0;
+	border-radius:5px;
+	color: #999999;
+	font-weight:bold;
+}
+
+.area_content{
+	float:left;
+	width:80%;
+	margin: 1% 10%;
+	font-size:4vw;
+	color: #888888;
+	font-weight:bold;
+	
+}
+
+.searchBtn {
+    float: left;
+    width: 94%;
+    font-size: 4.7vw;
+    color: white;
+    font-weight: bold;
+    background-color: #566687;
+    border-radius: 5px;
+    padding: 1.5% 0 1.5% 0;
+    box-shadow: 2px 2px 2px #ccc;
+    margin: 3%;
+    border: 0px;
+}
+
+.content {
+	width: 100%;
+	background-color: white;
+}
+
+.weather {
+    float: left;
+    width: 100%;
+    margin: 3% 0;
+    background-color: white;
+    box-shadow: 0 1px 5px 0.5px #cccccc;
+}
+
+.weather_title {
+    width: 100%;
+    color: #424242;
+    float: left;
+    font-weight: bold;
+    font-size: 4.5vw;
+    padding: 1% 3%;
+    background-color:#f4f4f4;
+    border-bottom:1px solid #e0e0e0;
+}
+
+.weather_info_sub {
+    width: 96%;
+    font-size: 3.3vw;
+    color: #999999;
+    margin: 1% 2% 1% 2%;
+    float: left;
+}
+
+.foot {
+    width: 96%;
+}
+.swiper-slide{
+	background-color: #F9F7F8;
+    border: 1px solid #F1F1F1;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.wrap_location {
+    width: 100%;
+    float:left;
+    color: #9c9c9c;
+    font-size: 3.5vw;
+    background-color: white;
+    box-shadow: 0 1px 5px 0.5px #cccccc;
+}
+
+.set_location{
+	width:96%;
+	float:left;
+    padding: 1% 0 1% 0;
+    margin: 0 2% 0 2%;
+}
+
+.set_location img {
+	float:left;
+	width: 5%;
+    padding: 1% 0 1% 0;
+    margin: 0 2% 0 2%;
+}
+
+.location_info {
+   float:left;
+    font-weight: bold;
+    font-size: 3.7vw;
+    color: black;
+    margin-top:1%;
+    margin-right:2%;
+}
+
+.location_info2 {
+	float:left;
+    font-weight: bold;
+    font-size: 3.7vw;
+    color: #999999;
+    margin-top:1%;
+}
+
+.weather_location {
+	float:left;
+	width: 100%;
+    padding: 1.5%;
+    color: white;
+    font-size: 4.8vw;
+    background-color: #2D4B71;
+    font-weight: bold;
+}
+
+.weather_location img {
+	float: left;
+	width: 6%;
+	margin-top:0.5%;
+}
+
+.weather_area {
+	float:left;
+	margin-left: 2%;
+} 
+
+.weather_cont {
+	float: left;
+    width: 31%;
+    margin: 2% 1% 2% 1%;
+}
+
+
+.foot_head {
+    width: 100%;
+    float: left;
+}
+
+.date {
+	width: 96%;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 3.5vw;
+    background-color: #EAEAEA;
+    color: #424242;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    padding: 1.3% 0;
+}
+
+.weather_info {
+	width: 96%;
+	height: 76%;
+	margin: 2%;	
+}
+
+.foot_like {
+	float: left;
+	width:35%;
+    margin-top: 2%;
+}
+
+.foot_like img {
+	width: 100%;
+	height: 100%;
+	margin: 8% auto;
+}
+
+.weather_detail {
+    float: right;
+    width: 65%;
+    text-align: right;
+}
+
+.detail_info {
+	float: right;
+    width: 100%;
+    font-size: 3vw;
+    margin-top: 2%;
+    color: #555555;
+}
+
+.pagi {
+	width: 100%;
+	height : 5%;
+}
+
+.map {
+	flaot:left;
+    width: 100%;
+    height: 90%;
+}
+
+.map_plus {
+	float:left;
+    width: 100%;
+    padding:0 0 4% 0;
+    background-color:#ffffff;
+    box-shadow: 0 1px 5px 0.5px #cccccc;
+    margin-bottom:4%;
+}
+
+.map_big {
+	float:left;
+    width: 50%;
+    background-color: #f6f6f6;
+    text-align: center;
+    color: #424242;
+    font-weight:bold;
+    font-size:4.5vw;
+    padding: 2.5% 0;
+    border:1px solid #dadada;
+}
+.content_more{
+	float:left;
+    width: 50%;
+    background-color: #2D4B71;
+    text-align: center;
+    color: #ffffff;
+    font-weight:bold;
+    font-size:4.5vw;
+    padding: 2.5% 0;
+    border:1px solid #dadada;
+    
+}
+
+.footer {
+	float:left;
+	margin-top: 1.5%;
+	width: 100%;
+}
+
+.tab_menu {
+	width: 100%;
+	padding: 0 2% 0 2%;
+	float: left;
+	background-color:#ffffff;
+	text-align: center;
+}
+
+.tab {
+	padding:3% 4.3% 5% 4.3%;
+    float: left;
+}
+
+.tab_title {
+    font-size: 4.5vw;
+	font-weight:bold;
+	color: #424242;
+}
+/*
+.tab_bar {
+	width: 100%;
+	height: 3%;
+}
+
+.select_status0 {
+    width: 100%;
+	float: left;
+    background-color: #e0e0e0;
+}
+
+.select_status1 {
+	float: left;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #0a094f;
+    background-color: #0a094f;
+    visibility: hidden;
+}
+ */
+.tab_content {
+	float: left;
+	width: 100%;
+	height: 85%;
+	background-color:#ffffff;
+}
+
+
+
+#dynamic{
+	width: 100%;
+	height:100%;
+	background-color:white;
+	position: fixed;
+	z-index: 5;
+	left: 0;
+	top: 0;
+}
